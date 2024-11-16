@@ -1,16 +1,23 @@
 # knovator_task
 
-A new Flutter project.
+GetX (get: ^4.6.6):
 
-## Getting Started
+State management: GetX is used for managing app state, simplifying the flow between the UI and the business logic.
+Navigation: It is used for routing and navigation between pages.
+Dependency Injection: It provides an easy and clean way to manage dependencies.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+GetStorage (get_storage: ^2.1.1):
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Local Storage: 
+This library is used for storing data locally in a key-value format, which allows the app to persist data across sessions.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+VisibilityDetector:
+
+Visibility Detection: This library helps detect when a widget is visible on the screen, which can be useful for
+pausing or resuming tasks such as timers when the item becomes visible or hidden during scrolling.
+
+
+To run the app, clone the repository using the following Git link:
+
+Git link: https://github.com/Manpreet077-kaur/KNOVATOR-_TASK.git
